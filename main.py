@@ -1,8 +1,7 @@
 
 def average_spin( spins ) :
-  # Your code goes here
-  
-  return 
+  # Your code goes here 
+  return sum(spins) / len(spins)
 
 spins1 = [1,-1,1,1,-1,1,1,1,-1,-1]
 print( average_spin( spins1 ) )
